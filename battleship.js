@@ -54,10 +54,10 @@ var model = {
 				view.displayMessage("Hit!");
 				if (this.isSunk(ship)) {
 					this.shipSunk++;
-				};
+				}
 				return true;
 				// we have a hit.
-			};
+			}
 		}
 		view.displayMiss(guess);
 		view.displayMessage("You missed");
@@ -68,11 +68,11 @@ var model = {
 		for (var i = 0; i < this.shipLength; i++) {
 			if (ship.hits[i] !== "hit") {
 				return false;
-			};
+			}
 		}
 		return true;
 	}
-}
+};
 
 /* model.fire("11");
 model.fire("26");
@@ -83,6 +83,14 @@ var controller = {
 	guesses: 0,
 
 	processGuess: function(guess) {
+		var location = parseGuess(guess);
+		if (location) {
+			this.guesses++;
+			var hit = model.fire(location);
+			if (hit && model.shipSunk === model.numShips) {
+				view.displayMessage("You sank all my battleships, in " + this.guesses + " guesses");
+			}
+		}
 		// more code will go here
 	}
 };
@@ -110,7 +118,48 @@ function parseGuess(guess) {
 		}
 	}
 	return null;
-};
+}
 
-console.log(parseGuess("B3"));
-console.log(parseGuess("A7"));
+//console.log(parseGuess("B3"));
+//console.log(parseGuess("A7"));
+//controller.processGuess("A0");
+//controller.processGuess("A6"); controller.processGuess("B6"); controller.processGuess("C6");
+//controller.processGuess("C4"); controller.processGuess("D4"); controller.processGuess("E4");
+//controller.processGuess("B0"); controller.processGuess("B1"); controller.processGuess("B2");
+
+function handleFireButton () {
+	var guessInput = document.getElementById("guessInput");
+	var guess = guessInput.value;
+	controller.processGuess(guess);
+
+	guessInput.value = "";
+	// get the player's guess input
+	// and get it to the controller
+}
+
+function handleKeyPress(e) {
+	var fireButton = document.getElementById("fireButton");
+	if (e.keyCode === 13) {
+		fireButton.click();
+		return false;
+	}
+}
+
+function init() {
+	var fireButton = document.getElementById("fireButton");
+	fireButton.onclick = handleFireButton;
+	var guessInput = document.getElementById("guessInput");
+	guessInput.onkeypress = handleKeyPress;
+}
+
+window.onload = init;
+
+
+
+
+
+
+
+
+
+
