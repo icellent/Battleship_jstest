@@ -1,0 +1,526 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ge",
+				"getElementByid"
+			],
+			[
+				"disp",
+				"displayMessage"
+			],
+			[
+				"shipL",
+				"shipLength"
+			],
+			[
+				"is",
+				"isSunk"
+			],
+			[
+				"ships",
+				"ships"
+			],
+			[
+				"loc",
+				"locations"
+			],
+			[
+				"loca",
+				"locations"
+			],
+			[
+				"s",
+				"ship2"
+			],
+			[
+				"display",
+				"displayMessage"
+			],
+			[
+				"displ",
+				"displayHit"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"border-s",
+				"border-spacing"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"yea",
+				"years"
+			],
+			[
+				"mode",
+				"models"
+			],
+			[
+				"sec",
+				"secret"
+			],
+			[
+				"ran",
+				"randomLoc"
+			],
+			[
+				"location",
+				"location2"
+			],
+			[
+				"ra",
+				"randomLoc"
+			],
+			[
+				"lo",
+				"location3"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"baoc",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"iN",
+				"iName"
+			],
+			[
+				"bi",
+				"bioPic"
+			],
+			[
+				"mo",
+				"mobile"
+			],
+			[
+				"cont",
+				"contacts"
+			],
+			[
+				"fom",
+				"fomattedContact"
+			],
+			[
+				"inf",
+				"infoWindow"
+			],
+			[
+				"fD",
+				"fDescription"
+			],
+			[
+				"fd",
+				"fDates"
+			],
+			[
+				"f",
+				"fTitle"
+			],
+			[
+				"i",
+				"images"
+			],
+			[
+				"da",
+				"dates"
+			],
+			[
+				"pro",
+				"projects"
+			],
+			[
+				"in",
+				"inName"
+			],
+			[
+				"la",
+				"lastName"
+			],
+			[
+				"fir",
+				"firstName"
+			],
+			[
+				"fi",
+				"firstLetter"
+			],
+			[
+				"name",
+				"nameArray"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fo",
+				"formattedDescription"
+			],
+			[
+				"forma",
+				"formattedWorkLocation"
+			],
+			[
+				"form",
+				"formattedTitle"
+			],
+			[
+				"html",
+				"HTMLworkTitle"
+			],
+			[
+				"htm",
+				"HTMLworkEmployer"
+			],
+			[
+				"app",
+				"append"
+			],
+			[
+				"job",
+				"jobs"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"from",
+				"formattedName"
+			],
+			[
+				"toy",
+				"toy_story"
+			],
+			[
+				"m",
+				"Movie"
+			],
+			[
+				"trailer_",
+				"trailer_youtube_url"
+			],
+			[
+				"movi",
+				"movie_storyline"
+			],
+			[
+				"movie",
+				"movie_title"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 287.0,
+		"selected_items":
+		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"jva",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"subli",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"pak",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/icellent/Desktop/battleship/Battleship_jstest/index.html",
+		"/Users/icellent/Desktop/battleship/Battleship_jstest/battleship.js",
+		"/Users/icellent/.ShadowsocksX/gfwlist.js",
+		"/Users/icellent/Desktop/Solarized Dark.itermcolors",
+		"/Users/icellent/Desktop/Solarized Light.itermcolors",
+		"/Users/icellent/Desktop/battleship/battleship.js",
+		"/Users/icellent/Desktop/Head-First-JavaScript-Programming-master/chapter8/battleship.html",
+		"/Users/icellent/Desktop/jsoa.html",
+		"/Users/icellent/卫校补充登记号码",
+		"/Users/icellent/Desktop/Portfolio/framework/test.html",
+		"/Users/icellent/Desktop/bootstrap-prestructure.html",
+		"/Users/icellent/Desktop/Portfolio/toplist/style.css",
+		"/Users/icellent/Desktop/Portfolio/toplist/index.html",
+		"/Users/icellent/Desktop/frontend-nanodegree-resume/js/helper.js",
+		"/Users/icellent/Desktop/frontend-nanodegree-resume/index.html",
+		"/Users/icellent/Desktop/frontend-nanodegree-resume/js/resumeBuilder.js",
+		"/Users/icellent/Desktop/环保实名激活.txt",
+		"/Users/icellent/Desktop/2048/style/main.css",
+		"/Applications/Sublime Text.app/Contents/MacOS/changelog.txt",
+		"/Users/icellent/Desktop/2048/index.html",
+		"/Volumes/C/Users/icellent/Desktop/实名登记与激活.txt",
+		"/Users/icellent/Desktop/2048/style/fonts/clear-sans.css",
+		"/Users/icellent/Desktop/2048/js/local_storage_manager.js",
+		"/Users/icellent/Desktop/Lesson 1- How to Get Started Subtitles/01 - Introduction.srt",
+		"/Users/icellent/Documents/Movei_class/entertainment_media.py",
+		"/Users/icellent/entertainment_media.py",
+		"/Users/icellent/Library/Application Support/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/Users/icellent/text",
+		"/Users/icellent/Library/Application Support/Sublime Text 3/Packages/Gist/Gist.sublime-settings",
+		"/Users/icellent/Library/Application Support/Sublime Text 3/Packages/User/Gist.sublime-settings",
+		"/Users/icellent/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/icellent/Desktop/index.html",
+		"/Users/icellent/Library/Application Support/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/Users/icellent/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/icellent/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"location",
+			"0",
+			"google-an",
+			" >",
+			"h3",
+			"405x200",
+			"500x200",
+			"300x200",
+			"555",
+			"Appify",
+			"fomattedRole",
+			"initializeMap",
+			"backgroundColor = \"black\"",
+			"background-color",
+			"display = \"none\"",
+			"=",
+			"baidu",
+			"	",
+			"tile",
+			"ti le",
+			"game",
+			"gm ae",
+			"game",
+			"	",
+			" ",
+			"tile-inner",
+			"tile",
+			"dropbox",
+			"google.com",
+			"google",
+			"s3"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 174.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
